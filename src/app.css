@@ -1,0 +1,91 @@
+:root {
+  --max-width: 700px;
+  --columns: 4;
+}
+
+#app {
+  overflow: hidden;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+body {
+  color: #ccc;
+  background: #202222;
+  background: var(--img-source) fixed center center no-repeat;
+  background-size: cover;
+}
+
+.clocks {
+  text-shadow: #20222280 1px 1px 4px;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.card {
+  gap:0.5em;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+}
+
+.center {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  width: 100%;
+  justify-self: center;
+  justify-content: start;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(var(--columns),1fr);
+  flex-direction: row;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  max-width: var(--max-width);
+
+}
+
+.links .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #1118;
+  box-shadow: #111e 3px 3px 3px;
+  border-radius: 0.1em;
+  color: #eeea;
+  text-decoration: none;
+  padding: 0.9em 0.5em;
+  transition: 200ms background;
+}
+
+.links .link {
+  padding: 0em 0.5em;
+  cursor: pointer;
+  color: #eeea;
+  text-decoration: none;
+  transition: 200ms;
+  opacity: 0%;
+  height: 2em;
+}
+
+.links .link:hover {
+  background: hsl(var(--hue), 25%, 50%);
+  border-radius: 0.25em;
+  color: #222;
+  transform: translateY(-0.15em);
+}
+
+.links .title {
+  cursor: default;
+  padding: 0em 0.5em;
+  color: hsl(var(--hue), 37%,48%);
+}
+
+.links .container:hover .link {
+  opacity: 100%;
+}

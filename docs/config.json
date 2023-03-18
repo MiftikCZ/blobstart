@@ -1,0 +1,75 @@
+{ 
+    "grid": {
+        "columns": 4,
+        "width": "700px"
+    },
+    "images": [
+        "https://images.unsplash.com/photo-1606755655775-e43dc21b5012?ixid=MnwxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTY3OTE0ODY0Mg&ixlib=rb-4.0.3&q=85&w=1920",
+        "https://images.unsplash.com/photo-1591013663632-428f9a1ca967?ixid=MnwxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTY3OTE0ODY0Mg&ixlib=rb-4.0.3&q=85&w=1920",
+        "https://images.unsplash.com/photo-1598647599711-8a8743ceac4d?ixid=MnwxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTY3OTE0NDc5OQ&ixlib=rb-4.0.3&q=85&w=1920",
+        "https://images.unsplash.com/photo-1520479627275-3eca80b17ecc?ixid=MnwxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTY3OTE0NDc5OQ&ixlib=rb-4.0.3&q=85&w=1920",
+        "https://images.unsplash.com/photo-1598623385857-4952ad760e0e?ixid=MnwxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTY3OTEzNTA1OA&ixlib=rb-4.0.3&q=85&w=1920",
+        "https://images.unsplash.com/photo-1575406965388-5350dc952c3c?ixid=MnwxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTY3OTA2OTk3NQ&ixlib=rb-4.0.3&q=85&w=1920",
+        "https://images.unsplash.com/photo-1534599149175-c31133179de3?ixid=MnwxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTY3OTA2OTk3NQ&ixlib=rb-4.0.3&q=85&w=1920",
+        "https://images.unsplash.com/photo-1591511604946-83f343e385e8?ixid=MnwxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTY3OTA2MTIyNw&ixlib=rb-4.0.3&q=85&w=1920"
+    ],
+    "colors": {
+        "step": 20,
+        "start": 0,
+        "usegreentitle": false
+    },
+    "links": [
+        [
+            "Development",
+            [
+                [
+                    "Localhost",
+                    "//localhost:5173"
+                ],
+                [
+                    "ChatGPT",
+                    "//chat.openai.com/chat"
+                ]
+            ]
+        ],
+        [
+            "Free time",
+            [
+                [
+                    "Todo app",
+                    "//miftikcz.github.io/idea-keeper-2"
+                ],
+                [
+                    "Monkeytype",
+                    "//monkeytype.com"
+                ]
+            ]
+        ],
+        [
+            "Code",
+            [
+                [
+                    "Stackoverflow",
+                    "//stackoverflow.com"
+                ],
+                [
+                    "Github",
+                    "//github.com"
+                ]
+            ]
+        ],
+        [
+            "Social",
+            [
+                [
+                    "Discord",
+                    "//discord.com"
+                ],
+                [
+                    "Reddit",
+                    "//reddit.com"
+                ]
+            ]
+        ]
+    ]
+}
